@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<header>
+    <div id="encabezado">
+        <div id="contacto">
+            <img class="icono" src="imgs/phone-call.png" alt="">
+            <span>(0351)4256987</span>
+            <img class="icono" src="imgs/email.png" alt="">
+            <span>info@compras.com.ar</span>
+        </div>
+        <form name="fecha">
+            <p id="FormatoPortada">
+                <input type="text" name="fec">
+            </p>
+        </form>
+        <div id="redesSociales">
+            <img class="icono" src="imgs/facebook.png" alt="">
+            <img class="icono" src="imgs/twitter.png" alt="">
+            <img class="icono" src="imgs/linkedin.png" alt="">
+            <img class="icono" src="imgs/ball-of-basketball.png" alt="">
+            <img class="icono" src="imgs/social.png" alt="">
+        </div>
+    </div>
+    <div id="opciones">
+        <img class="icono" src="imgs/user.png" alt="">
+        <span>CUENTA</span>
+        <img class="icono" src="imgs/star.png" alt="">
+        <span>VENTAS</span>
+        <img class="icono" src="imgs/sight.png" alt="">
+        <span>RESUMEN</span>
+        <img class="icono" src="imgs/shopping-cart.png" alt="">
+        <span>COMPRADOS</span>
+        <img class="icono" src="imgs/lock.png" alt="">
+        <span id="ingresoBtn">INGRESAR</span>
+        <div id="ingresoVentana" class="ventana">
+            <div class="contenidoVentana">
+                <span class="cerrarBtn">&times;</span>
+                <h2>INGRESAR</h2>
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" required>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <img id="divisorOpciones" src="imgs/bg_border.png" alt="">
+    <script src="script.js"></script>
+</header>
+<body>
+    <div id="cuerpo">
+        <div id="filtros">
+            <form name="reloj">
+                <p id="Formato">
+                    <input type="text" name="Re">
+                </p>
+            </form>
+            <script src="script.js"></script>
+            <h2>CATEGORIAS</h2>
+            <ul>
+                <li>DEPORTES <img class="icono" src="imgs/plus.png" alt=""></li>
+                <li>HOMBRES <img class="icono" src="imgs/plus.png" alt=""></li>
+                <li>MUJERES <img class="icono" src="imgs/plus.png" alt=""></li>
+                <li>NIÑOS</li>
+                <li>MODA</li>
+                <li>HOGAR</li>
+                <li>INTERIORES</li>
+                <li>MUJER</li>
+                <li>CARTERAS</li>
+                <li>ZAPATOS</li>
+            </ul>
+            <h2>MARCAS</h2>
+            <div id="marcas">              
+                <ul id="nombreMarcas">
+                    <li>NIKE</li>
+                    <li>ADIDAS</li>
+                    <li>SARLANY</li>
+                    <li>CUESTA&#160BLANCA</li>
+                    <li>PUMA</li>
+                    <li>DIOR</li>
+                    <li>LOLA ROCA</li>
+                </ul>
+                <ul id="resultadosFiltro">
+                    <li>(50)</li>
+                    <li>(56)</li>
+                    <li>(27)</li>
+                    <li>(32)</li>
+                    <li>(5)</li>
+                    <li>(9)</li>
+                    <li>(4)</li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="articulos">
+            <div id="titulo">
+                <img src="imgs/bg_border.png" alt="">
+                <h2>&#160&#160ARTICULOS&#160&#160</h2>
+                <img src="imgs/bg_border.png" alt="">
+            </div>
+                <div id="imagenes">
+                    <div class="producto">
+                        <img src="imgs/product1.jpg" alt="">
+                        <span class="precio">$560</span>
+                        <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                        <div class="extra">
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">AÑADIR A FAVORITOS</span>
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">COMPARAR PRECIOS</span>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="imgs/product2.jpg" alt="">
+                        <span class="precio">$1250</span>
+                        <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                        <div class="extra">
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">AÑADIR A FAVORITOS</span>
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">COMPARAR PRECIOS</span>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="imgs/product3.jpg" alt="">
+                        <span class="precio">$720</span>
+                        <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                        <div class="extra">
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">AÑADIR A FAVORITOS</span>
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">COMPARAR PRECIOS</span>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="promo">
+                            <img src="imgs/product4.jpg" alt="">
+                            <img class="etiqueta" src="imgs/new.png" alt="">
+                        </div>
+                        <span class="precio">$1050</span>
+                        <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                        <div class="extra">
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">AÑADIR A FAVORITOS</span>
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">COMPARAR PRECIOS</span>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="promo">
+                            <img src="imgs/product5.jpg" alt="">
+                            <img class="etiqueta" src="imgs/sale.png" alt="">
+                        </div>
+                        <span class="precio">$580</span>
+                        <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                        <div class="extra">
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">AÑADIR A FAVORITOS</span>
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">COMPARAR PRECIOS</span>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img src="imgs/product6.jpg" alt="">
+                        <span class="precio">$350</span>
+                        <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                        <div class="extra">
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">AÑADIR A FAVORITOS</span>
+                            <span class="horizontal"><img class="extraIMG" src="imgs/plus.png" alt="">COMPARAR PRECIOS</span>
+                        </div>
+                    </div>   
+                </div>         
+            <div id="masOpciones">
+                <ul>
+                    <li>REMERAS</li>
+                    <li>BLAZERS</li>
+                    <li>ANTEOJOS DE SOL</li>
+                    <li>NIÑOS</li>
+                    <li>BIKINIS</li>
+                </ul>
+            </div>
+            <div id="masImagenes">
+                <div class="productoGaleria">
+                    <img src="imgs/gallery1.jpg" alt="">
+                    <span class="tituloGaleria">MUSCULOSA MUJER</span>
+                    <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                </div>
+                <div class="productoGaleria">
+                    <img src="imgs/gallery2.jpg" alt="">
+                    <span class="tituloGaleria">REMERA HOMBRE</span>
+                    <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                </div>    
+                <div class="productoGaleria">
+                    <img src="imgs/aros.jpg" alt="">
+                    <span class="tituloGaleria">AROS</span>
+                    <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                </div> 
+                <div class="productoGaleria">
+                    <img src="imgs/gallery4.jpg" alt="">
+                    <span class="tituloGaleria">GAFAS MUJER</span>
+                    <span class="carrito"><img src="imgs/shopping-cart.png" alt="">Añadir carrito</span>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <section id="pieDePagina">
+        <ul>
+            <li>
+                <span><b>SERVICIOS</b></span>
+            </li>
+            <li>
+                <span href="#">AYUDA ONLINE</span>
+            </li>
+            <li>
+                <span href="#">CONTACTO</span>
+            </li>
+            <li>
+                <span href="#">RESUMEN DE COMPRA</span>
+            </li>
+            <li>
+                <span href="#">PERSONALIZAR CUENTA</span>
+            </li>
+            <li>
+                <span href="#">FAQ'S</span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span><b>CATEGORIAS</b></span>
+            </li>
+            <li>
+                <span href="#">MODA</span>
+            </li>
+            <li>
+                <span href="#">HOMBRES</span>
+            </li>
+            <li>
+                <span href="#">MUJER</span>
+            </li>
+            <li>
+                <span href="#">REGALOS</span>
+            </li>
+            <li>
+                <span href="#">ZAPATOS</span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span><b>POLITICAS</b></span>
+            </li>
+            <li>
+                <span href="#">TERMINOS Y CONDICIONES</span>
+            </li>
+            <li>
+                <span href="#">POLITICA DE PRIVACIDAD</span>
+            </li>
+            <li>
+                <span href="#">SISTEMAS DE PAGO</span>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span><b>NOSOTROS</b></span>
+            </li>
+            <li>
+                <span href="#">QUIENES SOMOS</span>
+            </li>
+            <li>
+                <span href="#">CAREERS</span>
+            </li>
+            <li>
+                <span href="#">SUCURSALES</span>
+            </li>
+            <li>
+                <span href="#">PROVEEDORES</span>
+            </li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</footer>
+</html>
