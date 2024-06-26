@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: gray;
+  font-size: 11;
+  font-style: normal;
+}
+
+footer {
+  margin: 20px 15% 0px 15%;
+  display: flex;
+  justify-content: center;
+}
+
+footer img{
+  max-width: 100%;
+}
+
+
+/* Encabezado */
+
+#encabezado {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 15% 0px 15%;
+}
+
+#encabezado a {
+  color: orange;
+}
+
+#logo {
+  text-align: center;
+  font-size: 42px;
+  color: rgb(175, 175, 175);
+  white-space: pre;
+  margin: 20px 20px;
+}
+
+#logo img {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100px;
+  padding: 20px 50px 0px;
+}
+
+#frontal {
+  margin: 10px 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 250px;
+  max-height: 250px;
+  flex-basis: 400px;
+}
+
+#flecha {
+  align-self: center;
+}
+
+#flecha img {
+  margin: auto 10px;
+  padding: 5px 5px 5px 5px;
+  height: 25px;
+  width: 25px;
+  align-self: center;
+  flex-basis: 1px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px black;
+}
+
+#opciones {
+  margin: 10px 0;
+  display: block;
+  flex-direction: column;
+  padding: 20px 50px 5px;
+  text-align: left;
+  flex-basis: 2px;
+}
+
+#opciones img {
+  padding: 0px 5px 0px 0px;
+}
+
+.opcion {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+#inicio {
+  color: gray;
+}
+
+#contacto {
+  color: gray;
+}
+
+/* Index */
+
+/* Subencabezado */
+
+#subencabezado {
+  background-image: url(imgs/templatemo_service.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  margin: 0px 15% 10px 15%;
+  padding: 5px 125px;
+  border-radius: 25px;
+}
+
+/* Blog */
+
+#blog {
+  align-content: flex-start;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  text-align: justify;
+  align-self: left;
+  margin: 0px 15% 10px 15%;
+  padding: 5px 125px;
+}
+
+#blog div {
+  max-width: 300px;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+#blog img {
+  align-self: center;
+  width: 300px;
+  height: 150px;
+  padding: 15px 25px;
+}
+
+#blog a {
+  margin-top: 10px;
+  background-image: url(imgs/templatemo_more.jpg);
+  max-width: 60px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#soloTexto {
+  align-self: flex-end;
+  font-size: 14px;
+  
+}
+
+.textoAbajo {
+  font-size: 14px;
+}
+
+#ideas h1 {
+  padding-bottom: 15px;
+}
+
+#ideas p {
+  background-image: url(imgs/templatemo_testimonial.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 280px;
+  height: 140px;
+  padding: 20px 0px 0px;
+}
+
+#blog h3 {
+  padding-bottom: 20px;
+}
+
+
+/*Contacto*/
+
+#frontalContacto {
+  margin: 10px 0;
+  border-radius: 25px;
+  width: 300px;
+  max-height: 250px;
+  flex-basis: 500px;
+}
+
+/*Main*/
+
+#mainContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 15% 10px 15%;
+}
+
+/*Formulario*/
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px solid;
+  padding: 50px 30px;
+  margin: 0px 35px 10px 75px;
+}
+
+.fila {
+  display: flex;
+  justify-content: left;
+}
+.golumna {
+  display: flex;
+  flex-direction: column;
+}
+.grupo {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+}
+.grupo > label {
+  padding: 20px 0;
+  margin-right: 12px;
+}
+
+.grupo input {
+  padding: 10px;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+#formulario button {
+  border: 1px solid rgb(108, 183, 212);
+  background: rgb(168, 224, 247);
+  color: rgb(108, 183, 212);
+  padding: 10px;
+  margin-top: 15px;
+}
+
+#formulario textarea {
+  resize: none;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+/*Galeria imagenes*/
+
+#galeriaImgs {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  margin: 0px 10px 10px 10px;
+}
+
+#imagenes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 250px;
+  padding: 50px 50px;
+}
+
+#imagenes img {
+  width: 300px;
+  height: 150px;
+  padding: 5px 5px;
+  flex-basis: 250px;
+}
+
+/*Otros*/
+
+#otros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  margin: 10px 20% 10px 20%;
+  background-color: rgb(209, 242, 255);
+  background-size: 100% 100%;
+  padding: 0px 125px;
+  font-size: small;
+}
+
+#otros h4 {
+  font-size: large;
+  padding: 5px 0;
+}
+
+#redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px 30px;
+  flex-basis: 275px;
+}
+
+#redes span {
+  color: orange;
+  padding: 0px 5px;
+  text-align: start;
+}
+
+#servicios {
+  margin: 10px;
+  flex-basis: 300px;
+  margin: 0px 30px;
+}
+
+#nosotros {
+  margin: 10px;
+  flex-basis: 400px;
+  margin: 0px 30px;
+}
+
+/*CORRECCIONES DESPUES DE ENTREGA*/
+
+@media screen and (min-width: 720px) and (max-width: 1450px) {
+  #encabezado{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #subencabezado{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #blog{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #mainContacto{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #galeriaImgs{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #otros{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1650px) {
+  #encabezado{
+    justify-content: center;
+    margin: 0px 7% 10px 7%;
+    padding-left: 0;
+    padding-right: 10;
+  }
+
+  #subencabezado{
+    justify-content: center;
+    margin: 0px 7% 10px 7%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #blog{
+    justify-content: center;
+    margin: 0px 7% 10px 7%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer{
+    justify-content: center;
+    margin: 0px 7% 10px 7%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #mainContacto{
+    justify-content: center;
+    margin: 0px 7% 10px 7%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #galeriaImgs{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #otros{
+    justify-content: center;
+    margin: 0px 7% 10px 7%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1650px) and (max-width: 1900px) {
+  #encabezado{
+    justify-content: center;
+    margin: 0px 15% 10px 15%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #subencabezado{
+    justify-content: center;
+    margin: 0px 15% 10px 15%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #blog{
+    justify-content: center;
+    margin: 0px 15% 10px 15%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer{
+    justify-content: center;
+    margin: 0px 10% 10px 10%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #mainContacto{
+    justify-content: center;
+    margin: 0px 10% 10px 10%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #galeriaImgs{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #otros{
+    justify-content: center;
+    margin: 0px 10% 10px 10%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/*FIN DE CORRECCIONES*/
+
+@media screen and (max-width: 720px) {
+  #encabezado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+  }
+
+  #opciones {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+
+  #opciones img {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /*Index*/
+
+  #subencabezado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 5px 10px;
+  }
+  
+  .rotado {
+    rotate: 90deg;
+  }
+
+  #blog{
+    margin: 10px 10px;
+    padding: 10px 100px;
+  }
+
+  /*Contacto*/
+
+  #mainContacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+  }
+
+  #formulario{
+    margin: 0 0;
+  }
+
+  #galeriaImgs{
+    justify-content: center;
+    margin: 0px 1% 10px 1%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #otros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 1px;
+  }
+
+  #redes{
+    margin-top: 10px;
+  }
+
+  #servicios{
+    margin-top: 10px;
+  }
+
+  #nosotros{
+    margin-top: 10px;
+  }
+
+  #pieDePagina{
+    background-color: black;
+    margin: 0px 15% 10px 15%;
+  }
+
+
+}
